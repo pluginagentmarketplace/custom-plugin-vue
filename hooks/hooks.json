@@ -1,0 +1,141 @@
+{
+  "version": "1.0",
+  "hooks": [
+    {
+      "id": "roadmap-progress-tracker",
+      "event": "command-executed",
+      "trigger": "learning-path",
+      "action": "track-milestone",
+      "description": "Automatically track learning path milestones when user completes sections",
+      "enabled": true,
+      "config": {
+        "saveProgress": true,
+        "notifyOnCompletion": true,
+        "calculateStats": true
+      }
+    },
+    {
+      "id": "skill-improvement-notifications",
+      "event": "skill-assessment-completed",
+      "trigger": "skill-assessment",
+      "action": "send-recommendations",
+      "description": "Send personalized skill improvement recommendations after assessment",
+      "enabled": true,
+      "config": {
+        "frequency": "on-completion",
+        "includeResources": true,
+        "prioritizeGaps": true
+      }
+    },
+    {
+      "id": "roadmap-sync-reminder",
+      "event": "weekly-check",
+      "trigger": "time-based",
+      "action": "remind-roadmap-review",
+      "description": "Weekly reminder to check progress on selected roadmap",
+      "enabled": true,
+      "config": {
+        "frequency": "weekly",
+        "dayOfWeek": "monday",
+        "timeOfDay": "09:00"
+      }
+    },
+    {
+      "id": "learning-path-optimizer",
+      "event": "milestone-completed",
+      "trigger": "learning-path-progress",
+      "action": "optimize-next-phase",
+      "description": "Analyze completed phase and optimize next learning phase recommendations",
+      "enabled": true,
+      "config": {
+        "analysePace": true,
+        "adjustDifficulty": true,
+        "suggestProjects": true
+      }
+    },
+    {
+      "id": "career-guidance-prompts",
+      "event": "role-change-detected",
+      "trigger": "skill-shift",
+      "action": "suggest-career-paths",
+      "description": "When skills shift to new domain, suggest relevant career paths",
+      "enabled": true,
+      "config": {
+        "trackDomainShifts": true,
+        "suggestTransitions": true,
+        "showMarketInsights": true
+      }
+    },
+    {
+      "id": "portfolio-builder",
+      "event": "project-completed",
+      "trigger": "learning-milestone",
+      "action": "portfolio-suggestion",
+      "description": "Suggest portfolio projects when completing learning milestones",
+      "enabled": true,
+      "config": {
+        "suggestPortfolioItems": true,
+        "difficulty": "progressive",
+        "createShowcase": true
+      }
+    },
+    {
+      "id": "community-connection",
+      "event": "expertise-achieved",
+      "trigger": "skill-mastery",
+      "action": "suggest-contribution",
+      "description": "Suggest open source and community contributions when expertise achieved",
+      "enabled": true,
+      "config": {
+        "suggestOpenSource": true,
+        "mentorOpportunities": true,
+        "speakingEvents": true
+      }
+    },
+    {
+      "id": "market-pulse",
+      "event": "quarterly-check",
+      "trigger": "time-based",
+      "action": "market-insights",
+      "description": "Quarterly market insights and job demand data for tracked roles",
+      "enabled": true,
+      "config": {
+        "frequency": "quarterly",
+        "includeJobs": true,
+        "includeSalary": true,
+        "showTrends": true
+      }
+    }
+  ],
+  "notifications": {
+    "enabled": true,
+    "channels": ["inline", "summary"],
+    "frequency": "daily",
+    "summaryTime": "18:00"
+  },
+  "tracking": {
+    "enabled": true,
+    "metrics": [
+      "learning-progress",
+      "skill-development",
+      "project-completion",
+      "assessment-scores",
+      "career-transitions"
+    ],
+    "retention": "12-months"
+  },
+  "integrations": {
+    "github": {
+      "enabled": false,
+      "description": "Future integration with GitHub for portfolio tracking"
+    },
+    "calendar": {
+      "enabled": false,
+      "description": "Future integration with calendar for learning schedule"
+    },
+    "analytics": {
+      "enabled": true,
+      "description": "Track learning analytics and progress metrics"
+    }
+  }
+}
