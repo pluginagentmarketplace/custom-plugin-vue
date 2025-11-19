@@ -1,0 +1,120 @@
+{
+  "schemaVersion": "1.0",
+  "name": "Developer Roadmap Plugin",
+  "version": "1.0.0",
+  "description": "Complete learning system with 69 professional development roadmaps, 7 specialized agents, and comprehensive skill development paths from beginner to expert",
+  "author": "Developer Roadmap Community",
+  "license": "MIT",
+  "repository": "https://github.com/kamranahmedse/developer-roadmap",
+  "keywords": [
+    "roadmap",
+    "learning",
+    "development",
+    "career",
+    "69-roles",
+    "skill-development",
+    "professional-growth"
+  ],
+  "agents": [
+    {
+      "id": "frontend-ui-specialist",
+      "file": "agents/01-frontend-ui-specialist.md",
+      "description": "Expert in frontend technologies, UI/UX design, and modern web frameworks"
+    },
+    {
+      "id": "backend-api-developer",
+      "file": "agents/02-backend-api-developer.md",
+      "description": "Specialist in backend systems, APIs, databases, and server-side architecture"
+    },
+    {
+      "id": "data-ai-engineer",
+      "file": "agents/03-data-ai-engineer.md",
+      "description": "Expert in data engineering, AI/ML, analytics, and data-driven systems"
+    },
+    {
+      "id": "devops-infrastructure",
+      "file": "agents/04-devops-infrastructure.md",
+      "description": "Specialist in DevOps, cloud infrastructure, containerization, and deployment"
+    },
+    {
+      "id": "mobile-cross-platform",
+      "file": "agents/05-mobile-cross-platform.md",
+      "description": "Expert in mobile development across iOS, Android, and cross-platform frameworks"
+    },
+    {
+      "id": "databases-system-design",
+      "file": "agents/06-databases-system-design.md",
+      "description": "Specialist in database design, system architecture, and scalable solutions"
+    },
+    {
+      "id": "specialized-management",
+      "file": "agents/07-specialized-management.md",
+      "description": "Expert in specialized roles and career management in tech leadership"
+    }
+  ],
+  "commands": [
+    {
+      "id": "explore-roadmap",
+      "file": "commands/explore-roadmap.md",
+      "description": "Explore all 69 development roadmaps interactively"
+    },
+    {
+      "id": "learning-path",
+      "file": "commands/learning-path.md",
+      "description": "Get personalized learning path recommendations"
+    },
+    {
+      "id": "skill-assessment",
+      "file": "commands/skill-assessment.md",
+      "description": "Assess your current skills and identify gaps"
+    },
+    {
+      "id": "career-guidance",
+      "file": "commands/career-guidance.md",
+      "description": "Receive career development and roadmap guidance"
+    }
+  ],
+  "skills": [
+    {
+      "id": "frontend-technologies",
+      "file": "skills/frontend-technologies/SKILL.md"
+    },
+    {
+      "id": "backend-systems",
+      "file": "skills/backend-systems/SKILL.md"
+    },
+    {
+      "id": "data-ai-systems",
+      "file": "skills/data-ai-systems/SKILL.md"
+    },
+    {
+      "id": "devops-cloud",
+      "file": "skills/devops-cloud/SKILL.md"
+    },
+    {
+      "id": "mobile-development",
+      "file": "skills/mobile-development/SKILL.md"
+    },
+    {
+      "id": "system-design",
+      "file": "skills/system-design/SKILL.md"
+    },
+    {
+      "id": "specialized-technologies",
+      "file": "skills/specialized-technologies/SKILL.md"
+    }
+  ],
+  "hooks": {
+    "file": "hooks/hooks.json"
+  },
+  "metadata": {
+    "totalRoadmaps": 69,
+    "totalAgents": 7,
+    "totalSkills": 7,
+    "totalCommands": 4,
+    "learningHours": 1000,
+    "projects": 100,
+    "assessments": 30,
+    "supportedLanguages": ["en", "tr", "de", "es", "fr", "ja"]
+  }
+}
