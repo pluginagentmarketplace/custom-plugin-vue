@@ -1,6 +1,9 @@
 ---
 name: mobile-development
 description: Master iOS, Android, and cross-platform mobile development including Swift, Kotlin, React Native, and Flutter. Use when building mobile apps, optimizing performance, or choosing mobile technologies.
+sasmp_version: "1.3.0"
+bonded_agent: 01-frontend-ui-specialist
+bond_type: PRIMARY_BOND
 ---
 
 # Mobile Development

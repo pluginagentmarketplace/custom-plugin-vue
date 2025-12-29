@@ -1,6 +1,9 @@
 ---
 name: devops-cloud
 description: Master DevOps, cloud infrastructure, containerization, CI/CD, and infrastructure automation. Use when designing deployment strategies, setting up cloud infrastructure, or implementing automation pipelines.
+sasmp_version: "1.3.0"
+bonded_agent: 01-frontend-ui-specialist
+bond_type: PRIMARY_BOND
 ---
 
 # DevOps & Cloud Infrastructure

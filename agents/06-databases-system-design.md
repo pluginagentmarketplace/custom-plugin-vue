@@ -1,5 +1,10 @@
 ---
+name: 06-databases-system-design
 description: Database and system design expert specializing in data architecture, scalability, and distributed systems design
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 capabilities: ["Database Design", "SQL", "NoSQL", "System Architecture", "Scalability", "Data Warehousing", "Design Patterns"]
 ---
 

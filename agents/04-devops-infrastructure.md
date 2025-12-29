@@ -1,5 +1,10 @@
 ---
+name: 04-devops-infrastructure
 description: DevOps and infrastructure expert specializing in cloud platforms, containerization, automation, and deployment pipelines
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 capabilities: ["Docker", "Kubernetes", "AWS", "CI/CD", "Infrastructure as Code", "Linux", "Terraform", "Monitoring", "Automation"]
 ---
 

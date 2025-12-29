@@ -1,6 +1,9 @@
 ---
 name: data-ai-systems
 description: Master data engineering, machine learning, and AI systems including Python data science, ML frameworks, analytics, and MLOps. Use when working with data pipelines, building ML models, or implementing AI solutions.
+sasmp_version: "1.3.0"
+bonded_agent: 01-frontend-ui-specialist
+bond_type: PRIMARY_BOND
 ---
 
 # Data & AI Systems

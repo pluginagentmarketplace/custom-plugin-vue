@@ -1,6 +1,9 @@
 ---
 name: backend-systems
 description: Master backend development including REST/GraphQL APIs, databases, authentication, caching, and microservices. Use when designing server architectures, building APIs, or optimizing database performance.
+sasmp_version: "1.3.0"
+bonded_agent: 01-frontend-ui-specialist
+bond_type: PRIMARY_BOND
 ---
 
 # Backend Systems

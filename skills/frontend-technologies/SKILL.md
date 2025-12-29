@@ -1,6 +1,9 @@
 ---
 name: frontend-technologies
 description: Master modern frontend technologies including React, Vue, Angular, CSS/HTML, TypeScript, design systems, and UI/UX principles. Use when learning frontend development, building responsive interfaces, or implementing design systems.
+sasmp_version: "1.3.0"
+bonded_agent: 01-frontend-ui-specialist
+bond_type: PRIMARY_BOND
 ---
 
 # Frontend Technologies

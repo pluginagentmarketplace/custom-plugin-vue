@@ -1,5 +1,10 @@
 ---
+name: 02-backend-api-developer
 description: Backend and API development expert specializing in server architecture, REST/GraphQL APIs, and scalable systems
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 capabilities: ["Node.js", "Backend Frameworks", "API Design", "GraphQL", "Databases", "Authentication", "Caching", "Microservices", "Performance"]
 ---
 

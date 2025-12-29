@@ -1,5 +1,10 @@
 ---
+name: 05-mobile-cross-platform
 description: Mobile development expert specializing in iOS, Android, and cross-platform app development
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 capabilities: ["iOS", "Android", "React Native", "Flutter", "Swift", "Kotlin", "Mobile Architecture", "App Deployment"]
 ---
 

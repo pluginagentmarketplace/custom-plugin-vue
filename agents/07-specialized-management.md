@@ -1,5 +1,10 @@
 ---
+name: 07-specialized-management
 description: Specialized technologies and career management expert covering emerging fields, leadership roles, and advanced programming
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 capabilities: ["Go", "Rust", "Java", "Python", "Blockchain", "Cyber Security", "QA", "Game Dev", "Management", "Technical Leadership"]
 ---
 

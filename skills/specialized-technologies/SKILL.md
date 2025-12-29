@@ -1,6 +1,9 @@
 ---
 name: specialized-technologies
 description: Master specialized programming languages, emerging technologies, quality assurance, game development, and tech leadership. Use when exploring advanced domains, career transitions, or specialized technologies.
+sasmp_version: "1.3.0"
+bonded_agent: 01-frontend-ui-specialist
+bond_type: PRIMARY_BOND
 ---
 
 # Specialized Technologies & Leadership

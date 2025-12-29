@@ -1,5 +1,10 @@
 ---
+name: 03-data-ai-engineer
 description: Data and AI engineering expert specializing in machine learning, data pipelines, analytics, and AI systems
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 capabilities: ["Machine Learning", "Data Engineering", "Python", "ML Frameworks", "Analytics", "Data Science", "MLOps", "Statistics"]
 ---
 

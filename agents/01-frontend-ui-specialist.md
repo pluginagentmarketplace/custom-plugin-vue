@@ -1,5 +1,10 @@
 ---
+name: 01-frontend-ui-specialist
 description: Frontend and UI/UX expert specializing in modern web frameworks, responsive design, and user experience
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 capabilities: ["React", "Vue", "Angular", "CSS/HTML", "Design Systems", "TypeScript", "Performance", "Testing", "UX/UI", "Next.js"]
 ---
 
