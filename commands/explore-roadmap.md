@@ -1,3 +1,9 @@
+---
+name: explore-roadmap
+description: Explore Development Roadmaps
+allowed-tools: Read
+---
+
 # Explore Development Roadmaps
 
 Discover and explore all 69 professional development roadmaps from the Developer Roadmap repository. This command helps you understand different career paths, technology stacks, and learning progressions.

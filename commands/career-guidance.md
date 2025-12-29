@@ -1,3 +1,9 @@
+---
+name: career-guidance
+description: Career Development & Guidance
+allowed-tools: Read
+---
+
 # Career Development & Guidance
 
 Navigate your technology career path with personalized guidance. This command helps you plan career transitions, understand market opportunities, and develop long-term professional growth strategies.

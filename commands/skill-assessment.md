@@ -1,3 +1,9 @@
+---
+name: skill-assessment
+description: Skill Assessment & Evaluation
+allowed-tools: Read
+---
+
 # Skill Assessment & Evaluation
 
 Evaluate your current technical skills, identify knowledge gaps, and get targeted recommendations for improvement. This command provides comprehensive skill assessment across all development domains.

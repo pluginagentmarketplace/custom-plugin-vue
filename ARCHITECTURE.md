@@ -7,7 +7,6 @@ This document describes the architecture and structure of the Developer Roadmap 
 ## Directory Structure
 
 ```
-developer-roadmap-plugin/
 ├── .claude-plugin/
 │   └── plugin.json              # Main plugin manifest
 ├── agents/                      # 7 specialized agent definitions

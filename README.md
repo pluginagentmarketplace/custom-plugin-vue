@@ -1,396 +1,262 @@
-# Developer Roadmap Plugin for Claude Code
+<div align="center">
 
-> A comprehensive learning system with 69 professional development roadmaps, 7 specialized agents, and intelligent skill development paths.
+<!-- Animated Typing Banner -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=2E9EF7&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=100&lines=Vue+Assistant;7+Agents+%7C+7+Skills;Claude+Code+Plugin" alt="Vue Assistant" />
 
-## 🎯 Overview
+<br/>
 
-The Developer Roadmap Plugin brings the entire [kamranahmedse/developer-roadmap](https://github.com/kamranahmedse/developer-roadmap) repository into Claude Code as a powerful learning assistant. Navigate your technology career with personalized guidance, from exploring roles to mastering skills.
+<!-- Badge Row 1: Status Badges -->
+[![Version](https://img.shields.io/badge/Version-1.0.0-blue?style=for-the-badge)](https://github.com/pluginagentmarketplace/custom-plugin-vue/releases)
+[![License](https://img.shields.io/badge/License-Custom-yellow?style=for-the-badge)](LICENSE)
+[![Status](https://img.shields.io/badge/Status-Production-brightgreen?style=for-the-badge)](#)
+[![SASMP](https://img.shields.io/badge/SASMP-v1.3.0-blueviolet?style=for-the-badge)](#)
 
-### ✨ Key Features
+<!-- Badge Row 2: Content Badges -->
+[![Agents](https://img.shields.io/badge/Agents-7-orange?style=flat-square&logo=robot)](#-agents)
+[![Skills](https://img.shields.io/badge/Skills-7-purple?style=flat-square&logo=lightning)](#-skills)
+[![Commands](https://img.shields.io/badge/Commands-4-green?style=flat-square&logo=terminal)](#-commands)
 
-- **69 Professional Roadmaps**: All roles from Frontend to Blockchain
-- **7 Specialized Agents**: Domain experts for each technology area
-- **Personalized Learning Paths**: AI-powered learning recommendations
-- **Skill Assessment**: Evaluate current proficiency and identify gaps
-- **Career Guidance**: Navigate career transitions and growth
-- **Interactive Exploration**: Discover roles and technology stacks
-- **Marketing-Focused Design**: Beautiful, intuitive interface
+<br/>
 
-## 📊 Plugin Statistics
-
-| Component | Count | Status |
-|-----------|-------|--------|
-| Agents | 7 | ✅ Complete |
-| Skills | 7 | ✅ Complete |
-| Commands | 4 | ✅ Complete |
-| Roadmaps | 69 | ✅ Complete |
-| Learning Hours | 1,000+ | ✅ Complete |
-| Projects | 100+ | ✅ Complete |
-
-## 🚀 Quick Start
-
-### Installation
-
-Load the plugin in Claude Code:
-
-```bash
-# Option 1: Load from local directory
-# In Claude Code: "Load plugin from ./developer-roadmap-plugin"
-
-# Option 2: Add to plugins directory
-cp -r developer-roadmap-plugin ~/.claude-code/plugins/
-```
-
-### Basic Usage
-
-Start exploring with these commands:
-
-#### `/explore-roadmap`
-Discover all 69 development roadmaps and explore different career paths.
-
-```
-User: /explore-roadmap
-Claude: I'll help you explore the 69 development roadmaps. Here are the main categories:
-- Frontend & UI Development (9 roadmaps)
-- Backend & API Development (8 roadmaps)
-- Data & AI Engineering (7 roadmaps)
-...
-```
-
-#### `/learning-path`
-Create personalized learning plans for your career goals.
-
-```
-User: /learning-path
-User: I want to become a React developer in 3 months
-Claude: Great! Let me create a personalized 12-week learning path...
-- Weeks 1-2: JavaScript Fundamentals
-- Weeks 3-4: React Basics
-...
-```
-
-#### `/skill-assessment`
-Evaluate your current skills and identify improvement areas.
-
-```
-User: /skill-assessment
-User: Assess my React skills - I've built 3 projects
-Claude: Your React Proficiency Assessment:
-- React Fundamentals: Level 3/5 (Intermediate)
-- Hooks & State: Level 3/5 (Intermediate)
-...
-```
-
-#### `/career-guidance`
-Get personalized career development advice.
-
-```
-User: /career-guidance
-User: Should I transition from frontend to backend?
-Claude: That's a common transition! Let me analyze your situation...
-Timeline: 4-6 months with 10 hours/week
-```
-
-## 🤖 Specialized Agents
-
-The plugin includes 7 domain-expert agents that automatically handle your queries:
-
-### 1. **Frontend & UI Specialist** 🎨
-Covers: React, Vue, Angular, CSS/HTML, TypeScript, Design Systems, UX Design
-
-### 2. **Backend & API Developer** 🔧
-Covers: Node.js, Python, PHP, Java, Go, API Design, GraphQL, Databases
-
-### 3. **Data & AI Engineer** 🤖
-Covers: Machine Learning, Data Engineering, Python, Analytics, MLOps
-
-### 4. **DevOps & Infrastructure** ☁️
-Covers: Docker, Kubernetes, AWS, CI/CD, Terraform, Linux, CloudFlare
-
-### 5. **Mobile & Cross-Platform** 📱
-Covers: iOS, Android, React Native, Flutter, Swift, Kotlin
-
-### 6. **Databases & System Design** 💾
-Covers: PostgreSQL, MongoDB, Redis, System Architecture, Scalability
-
-### 7. **Specialized & Management** 🎓
-Covers: Go, Rust, Java, Blockchain, Cybersecurity, QA, Leadership
-
-## 💡 Skill Modules
-
-Each agent includes detailed SKILL.md files covering:
-
-### Frontend Technologies
-- JavaScript/TypeScript, React, Vue, Angular, CSS/HTML
-- Performance optimization, testing, accessibility
-- Design systems and UI/UX principles
-
-### Backend Systems
-- REST & GraphQL API design
-- Database design and optimization
-- Authentication, caching, microservices
-
-### Data & AI Systems
-- Python data science ecosystem
-- Machine learning frameworks
-- Data pipelines and MLOps
-
-### DevOps & Cloud
-- Container orchestration (Docker, Kubernetes)
-- Infrastructure as Code (Terraform)
-- CI/CD and monitoring
-
-### Mobile Development
-- Native (Swift, Kotlin) and cross-platform (React Native, Flutter)
-- App architecture and deployment
-
-### System Design
-- Scalability patterns, database sharding
-- Distributed systems, caching strategies
-- Load balancing and monitoring
-
-### Specialized Technologies
-- Advanced languages (Rust, Go, Java)
-- Emerging tech (Blockchain, Cybersecurity)
-- QA, game development, leadership
-
-## 📋 All 69 Roadmaps
-
-### Frontend (9)
-Frontend, React, Vue, Angular, Next.js, CSS, HTML, Design System, UX Design
-
-### Backend (8)
-Backend, Node.js, PHP, Laravel, Spring Boot, ASP.NET Core, API Design, GraphQL
-
-### Data & AI (7)
-AI Engineer, Data Scientist, Data Engineer, Data Analyst, BI Analyst, Machine Learning, MLOps
-
-### DevOps (7)
-DevOps, Docker, Kubernetes, AWS, CloudFlare, Terraform, Linux
-
-### Mobile (5)
-Android, iOS, React Native, Flutter, Swift UI
-
-### Database & System (6)
-PostgreSQL, MongoDB, Redis, System Design, Software Architecture, Software Architect
-
-### Languages & Tools (10)
-Go, Rust, Java, Python, TypeScript, JavaScript, C++, SQL, Shell Bash, Git/GitHub
-
-### Specialized (11)
-Blockchain, Cyber Security, AI Red Teaming, Game Developer, Server-Side Game Dev, QA, Code Review, Technical Writer, Product Manager, Engineering Manager, DevRel
-
-### Fundamentals (6)
-Computer Science, Data Structures & Algorithms, Prompt Engineering
-
-## 🎓 Learning Methodology
-
-The plugin uses a research-backed learning approach:
-
-### Phase-Based Learning
-1. **Foundations** (Weeks 1-4): Core concepts and basics
-2. **Core Concepts** (Weeks 5-12): Framework and architecture
-3. **Intermediate** (Weeks 13-20): Advanced patterns
-4. **Advanced** (Weeks 21-28): Specialization
-5. **Mastery** (Weeks 29+): Expert-level topics
-
-### Personalization
-- Adapts to your experience level
-- Considers available learning time
-- Respects preferred learning style
-- Adjusts pace based on progress
-- Suggests relevant projects
-
-### Interactive Guidance
-- Real-time skill assessment
-- Gap analysis and recommendations
-- Resource curation
-- Progress tracking
-- Community connections
-
-## 🔧 Plugin Configuration
-
-### .claude-plugin/plugin.json
-Main plugin manifest with:
-- Agent definitions and capabilities
-- Command references
-- Skill module links
-- Metadata and configuration
-
-### agents/
-7 markdown files, each containing:
-- YAML frontmatter with description and capabilities
-- Specialization areas
-- Invocation guidelines
-- Key skills covered
-- Learning progression
-- Resource links
-
-### commands/
-4 interactive commands:
-- `explore-roadmap.md` - Discover roles and stacks
-- `learning-path.md` - Create personalized plans
-- `skill-assessment.md` - Evaluate proficiency
-- `career-guidance.md` - Career development
-
-### skills/
-7 skill modules with practical content:
-- `frontend-technologies/SKILL.md`
-- `backend-systems/SKILL.md`
-- `data-ai-systems/SKILL.md`
-- `devops-cloud/SKILL.md`
-- `mobile-development/SKILL.md`
-- `system-design/SKILL.md`
-- `specialized-technologies/SKILL.md`
-
-### hooks/hooks.json
-Automation configuration:
-- Progress tracking hooks
-- Recommendation triggers
-- Notification system
-- Analytics collection
-
-## 📖 Documentation
-
-- `README.md` - This file, complete overview
-- `ARCHITECTURE.md` - Plugin structure details
-- `LEARNING-PATH.md` - Learning methodology
-- Individual agent and skill files with deep content
-
-## 🌟 Use Cases
-
-### 1. Career Planning
-"I want to become a full-stack developer. What's the best path?"
-- Get personalized 6-month learning plan
-- Understand required skills
-- Find recommended resources
-
-### 2. Skill Gap Analysis
-"I'm a frontend dev wanting to learn backend. Where do I start?"
-- Assessment of current skills
-- Clear gap identification
-- Prioritized learning recommendations
-
-### 3. Technology Exploration
-"What's the difference between Go and Rust?"
-- Detailed comparison
-- Use case analysis
-- Community insights
-
-### 4. Career Transition
-"Can I switch from DevOps to Data Engineering?"
-- Transition timeline estimation
-- Required skills mapping
-- Success strategies
-
-### 5. Role Investigation
-"What does a DevRel Engineer do? Is it for me?"
-- Role description and responsibilities
-- Required and optional skills
-- Career progression options
-
-## 🚀 Advanced Features
-
-### Smart Agent Selection
-Claude automatically routes queries to the most appropriate agent based on:
-- Topic keywords
-- Technology domain
-- Career level
-- Learning stage
-
-### Contextual Recommendations
-Receives personalized suggestions based on:
-- Assessed skill levels
-- Learning pace and style
-- Career goals
-- Time availability
-- Interest areas
-
-### Progress Tracking
-The hooks system tracks:
-- Learning milestones
-- Skill improvements
-- Project completions
-- Assessment scores
-- Career transitions
-
-### Market Insights
-Receive quarterly updates on:
-- Job market trends
-- Salary ranges
-- Demand for skills
-- Emerging technologies
-- Career opportunities
-
-## 🔗 Related Resources
-
-- **Official Roadmaps**: https://roadmap.sh
-- **GitHub Repository**: https://github.com/kamranahmedse/developer-roadmap
-- **Community**: [Discuss & contribute](https://github.com/kamranahmedse/developer-roadmap/discussions)
-
-## 📝 Plugin Manifest
-
-```json
-{
-  "schemaVersion": "1.0",
-  "name": "Developer Roadmap Plugin",
-  "version": "1.0.0",
-  "agents": 7,
-  "commands": 4,
-  "skills": 7,
-  "roadmaps": 69,
-  "learningHours": 1000,
-  "languages": ["en", "tr", "de", "es", "fr", "ja"]
-}
-```
-
-## 🎯 Getting Started
-
-1. **Load the Plugin**
-   ```
-   Load from ./developer-roadmap-plugin directory
-   ```
-
-2. **Run Your First Command**
-   ```
-   /explore-roadmap
-   ```
-
-3. **Take a Skill Assessment**
-   ```
-   /skill-assessment
-   ```
-
-4. **Create Your Learning Path**
-   ```
-   /learning-path
-   ```
-
-5. **Get Career Guidance**
-   ```
-   /career-guidance
-   ```
-
-## 🤝 Contributing
-
-This plugin is built on the amazing work of the [Developer Roadmap](https://github.com/kamranahmedse/developer-roadmap) community. To contribute:
-
-1. Improve skill content
-2. Add new learning resources
-3. Enhance career guidance
-4. Report issues or suggestions
-5. Share your learning journeys
-
-## 📄 License
-
-MIT License - Same as the Developer Roadmap repository
-
-## 🙏 Credits
-
-- **Developer Roadmap**: [kamranahmedse](https://github.com/kamranahmedse) and [1,431+ contributors](https://github.com/kamranahmedse/developer-roadmap/graphs/contributors)
-- **Claude Code Plugin System**: Anthropic
-- **Community**: Every developer following and contributing to roadmaps
+<!-- Quick CTA Row -->
+[📦 **Install Now**](#-quick-start) · [🤖 **Explore Agents**](#-agents) · [📖 **Documentation**](#-documentation) · [⭐ **Star this repo**](https://github.com/pluginagentmarketplace/custom-plugin-vue)
 
 ---
 
-**Ready to level up your development career?** Start with `/explore-roadmap` and discover your path! 🚀
+### What is this?
+
+> **Vue Assistant** is a Claude Code plugin with **7 agents** and **7 skills** for vue development.
+
+</div>
+
+---
+
+## 📑 Table of Contents
+
+<details>
+<summary>Click to expand</summary>
+
+- [Quick Start](#-quick-start)
+- [Features](#-features)
+- [Agents](#-agents)
+- [Skills](#-skills)
+- [Commands](#-commands)
+- [Documentation](#-documentation)
+- [Contributing](#-contributing)
+- [License](#-license)
+
+</details>
+
+---
+
+## 🚀 Quick Start
+
+### Prerequisites
+
+- Claude Code CLI v2.0.27+
+- Active Claude subscription
+
+### Installation (Choose One)
+
+<details open>
+<summary><strong>Option 1: From Marketplace (Recommended)</strong></summary>
+
+```bash
+# Step 1️⃣ Add the marketplace
+/plugin add marketplace pluginagentmarketplace/custom-plugin-vue
+
+# Step 2️⃣ Install the plugin
+/plugin install vue-assistant@pluginagentmarketplace-vue
+
+# Step 3️⃣ Restart Claude Code
+# Close and reopen your terminal/IDE
+```
+
+</details>
+
+<details>
+<summary><strong>Option 2: Local Installation</strong></summary>
+
+```bash
+# Clone the repository
+git clone https://github.com/pluginagentmarketplace/custom-plugin-vue.git
+cd custom-plugin-vue
+
+# Load locally
+/plugin load .
+
+# Restart Claude Code
+```
+
+</details>
+
+### ✅ Verify Installation
+
+After restart, you should see these agents:
+
+```
+vue-assistant:03-data-ai-engineer
+vue-assistant:04-devops-infrastructure
+vue-assistant:06-databases-system-design
+vue-assistant:05-mobile-cross-platform
+vue-assistant:01-frontend-ui-specialist
+... and 2 more
+```
+
+---
+
+## ✨ Features
+
+| Feature | Description |
+|---------|-------------|
+| 🤖 **7 Agents** | Specialized AI agents for vue tasks |
+| 🛠️ **7 Skills** | Reusable capabilities with Golden Format |
+| ⌨️ **4 Commands** | Quick slash commands |
+| 🔄 **SASMP v1.3.0** | Full protocol compliance |
+
+---
+
+## 🤖 Agents
+
+### 7 Specialized Agents
+
+| # | Agent | Purpose |
+|---|-------|---------|
+| 1 | **03-data-ai-engineer** | Data and AI engineering expert specializing in machine learn |
+| 2 | **04-devops-infrastructure** | DevOps and infrastructure expert specializing in cloud platf |
+| 3 | **06-databases-system-design** | Database and system design expert specializing in data archi |
+| 4 | **05-mobile-cross-platform** | Mobile development expert specializing in iOS, Android, and  |
+| 5 | **01-frontend-ui-specialist** | Frontend and UI/UX expert specializing in modern web framewo |
+| 6 | **07-specialized-management** | Specialized technologies and career management expert coveri |
+| 7 | **02-backend-api-developer** | Backend and API development expert specializing in server ar |
+
+---
+
+## 🛠️ Skills
+
+### Available Skills
+
+| Skill | Description | Invoke |
+|-------|-------------|--------|
+| `mobile-development` | Master iOS, Android, and cross-platform mobile development i | `Skill("vue-assistant:mobile-development")` |
+| `data-ai-systems` | Master data engineering, machine learning, and AI systems in | `Skill("vue-assistant:data-ai-systems")` |
+| `backend-systems` | Master backend development including REST/GraphQL APIs, data | `Skill("vue-assistant:backend-systems")` |
+| `frontend-technologies` | Master modern frontend technologies including React, Vue, An | `Skill("vue-assistant:frontend-technologies")` |
+| `system-design` | Master system architecture, database design, scalability pat | `Skill("vue-assistant:system-design")` |
+| `specialized-technologies` | Master specialized programming languages, emerging technolog | `Skill("vue-assistant:specialized-technologies")` |
+| `devops-cloud` | Master DevOps, cloud infrastructure, containerization, CI/CD | `Skill("vue-assistant:devops-cloud")` |
+
+---
+
+## ⌨️ Commands
+
+| Command | Description |
+|---------|-------------|
+| `/learning-path` | Personalized Learning Paths |
+| `/skill-assessment` | Skill Assessment & Evaluation |
+| `/career-guidance` | Career Development & Guidance |
+| `/explore-roadmap` | Explore Development Roadmaps |
+
+---
+
+## 📚 Documentation
+
+| Document | Description |
+|----------|-------------|
+| [CHANGELOG.md](CHANGELOG.md) | Version history |
+| [CONTRIBUTING.md](CONTRIBUTING.md) | How to contribute |
+| [LICENSE](LICENSE) | License information |
+
+---
+
+## 📁 Project Structure
+
+<details>
+<summary>Click to expand</summary>
+
+```
+custom-plugin-vue/
+├── 📁 .claude-plugin/
+│   ├── plugin.json
+│   └── marketplace.json
+├── 📁 agents/              # 7 agents
+├── 📁 skills/              # 7 skills (Golden Format)
+├── 📁 commands/            # 4 commands
+├── 📁 hooks/
+├── 📄 README.md
+├── 📄 CHANGELOG.md
+└── 📄 LICENSE
+```
+
+</details>
+
+---
+
+## 📅 Metadata
+
+| Field | Value |
+|-------|-------|
+| **Version** | 1.0.0 |
+| **Last Updated** | 2025-12-29 |
+| **Status** | Production Ready |
+| **SASMP** | v1.3.0 |
+| **Agents** | 7 |
+| **Skills** | 7 |
+| **Commands** | 4 |
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Please read our [Contributing Guide](CONTRIBUTING.md).
+
+1. Fork the repository
+2. Create your feature branch
+3. Follow the Golden Format for new skills
+4. Submit a pull request
+
+---
+
+## ⚠️ Security
+
+> **Important:** This repository contains third-party code and dependencies.
+>
+> - ✅ Always review code before using in production
+> - ✅ Check dependencies for known vulnerabilities
+> - ✅ Follow security best practices
+> - ✅ Report security issues privately via [Issues](../../issues)
+
+---
+
+## 📝 License
+
+Copyright © 2025 **Dr. Umit Kacar** & **Muhsin Elcicek**
+
+Custom License - See [LICENSE](LICENSE) for details.
+
+---
+
+## 👥 Contributors
+
+<table>
+<tr>
+<td align="center">
+<strong>Dr. Umit Kacar</strong><br/>
+Senior AI Researcher & Engineer
+</td>
+<td align="center">
+<strong>Muhsin Elcicek</strong><br/>
+Senior Software Architect
+</td>
+</tr>
+</table>
+
+---
+
+<div align="center">
+
+**Made with ❤️ for the Claude Code Community**
+
+[![GitHub](https://img.shields.io/badge/GitHub-pluginagentmarketplace-black?style=for-the-badge&logo=github)](https://github.com/pluginagentmarketplace)
+
+</div>

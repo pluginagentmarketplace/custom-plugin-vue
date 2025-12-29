@@ -1,3 +1,9 @@
+---
+name: learning-path
+description: Personalized Learning Paths
+allowed-tools: Read
+---
+
 # Personalized Learning Paths
 
 Create customized learning roadmaps based on your current skills, interests, and career goals. This command helps you plan efficient learning strategies to master development skills.

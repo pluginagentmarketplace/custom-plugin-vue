@@ -1,10 +1,10 @@
 {
   "schemaVersion": "1.0",
-  "name": "Developer Roadmap Plugin",
+  "name": "vue-assistant",
   "version": "1.0.0",
   "description": "Complete learning system with 69 professional development roadmaps, 7 specialized agents, and comprehensive skill development paths from beginner to expert",
   "author": "Developer Roadmap Community",
-  "license": "MIT",
+  "license": "SEE LICENSE IN LICENSE",
   "repository": "https://github.com/kamranahmedse/developer-roadmap",
   "keywords": [
     "roadmap",
@@ -115,6 +115,13 @@
     "learningHours": 1000,
     "projects": 100,
     "assessments": 30,
-    "supportedLanguages": ["en", "tr", "de", "es", "fr", "ja"]
+    "supportedLanguages": [
+      "en",
+      "tr",
+      "de",
+      "es",
+      "fr",
+      "ja"
+    ]
   }
 }
