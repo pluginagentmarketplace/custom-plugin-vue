@@ -1,1 +1,0 @@
-# specialized-technologies Guide

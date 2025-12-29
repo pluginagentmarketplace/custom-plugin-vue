@@ -1,8 +1,8 @@
 {
   "schemaVersion": "1.0",
-  "name": "vue-assistant",
+  "name": "vue-development-assistant",
   "version": "1.0.0",
-  "description": "Complete learning system with 69 professional development roadmaps, 7 specialized agents, and comprehensive skill development paths from beginner to expert",
+  "description": "Vue.js development plugin with specialized agents for Vue 3, Composition API, Pinia, and Nuxt",
   "author": "Developer Roadmap Community",
   "license": "SEE LICENSE IN LICENSE",
   "repository": "https://github.com/kamranahmedse/developer-roadmap",
@@ -16,41 +16,13 @@
     "professional-growth"
   ],
   "agents": [
-    {
-      "id": "frontend-ui-specialist",
-      "file": "agents/01-frontend-ui-specialist.md",
-      "description": "Expert in frontend technologies, UI/UX design, and modern web frameworks"
-    },
-    {
-      "id": "backend-api-developer",
-      "file": "agents/02-backend-api-developer.md",
-      "description": "Specialist in backend systems, APIs, databases, and server-side architecture"
-    },
-    {
-      "id": "data-ai-engineer",
-      "file": "agents/03-data-ai-engineer.md",
-      "description": "Expert in data engineering, AI/ML, analytics, and data-driven systems"
-    },
-    {
-      "id": "devops-infrastructure",
-      "file": "agents/04-devops-infrastructure.md",
-      "description": "Specialist in DevOps, cloud infrastructure, containerization, and deployment"
-    },
-    {
-      "id": "mobile-cross-platform",
-      "file": "agents/05-mobile-cross-platform.md",
-      "description": "Expert in mobile development across iOS, Android, and cross-platform frameworks"
-    },
-    {
-      "id": "databases-system-design",
-      "file": "agents/06-databases-system-design.md",
-      "description": "Specialist in database design, system architecture, and scalable solutions"
-    },
-    {
-      "id": "specialized-management",
-      "file": "agents/07-specialized-management.md",
-      "description": "Expert in specialized roles and career management in tech leadership"
-    }
+    "./agents/01-vue-fundamentals.md",
+    "./agents/02-vue-composition.md",
+    "./agents/03-vue-pinia.md",
+    "./agents/04-vue-router.md",
+    "./agents/05-vue-nuxt.md",
+    "./agents/06-vue-testing.md",
+    "./agents/07-vue-typescript.md"
   ],
   "commands": [
     {
@@ -75,34 +47,13 @@
     }
   ],
   "skills": [
-    {
-      "id": "frontend-technologies",
-      "file": "skills/frontend-technologies/SKILL.md"
-    },
-    {
-      "id": "backend-systems",
-      "file": "skills/backend-systems/SKILL.md"
-    },
-    {
-      "id": "data-ai-systems",
-      "file": "skills/data-ai-systems/SKILL.md"
-    },
-    {
-      "id": "devops-cloud",
-      "file": "skills/devops-cloud/SKILL.md"
-    },
-    {
-      "id": "mobile-development",
-      "file": "skills/mobile-development/SKILL.md"
-    },
-    {
-      "id": "system-design",
-      "file": "skills/system-design/SKILL.md"
-    },
-    {
-      "id": "specialized-technologies",
-      "file": "skills/specialized-technologies/SKILL.md"
-    }
+    "./skills/vue-fundamentals/SKILL.md",
+    "./skills/vue-composition-api/SKILL.md",
+    "./skills/vue-pinia/SKILL.md",
+    "./skills/vue-router/SKILL.md",
+    "./skills/vue-nuxt/SKILL.md",
+    "./skills/vue-testing/SKILL.md",
+    "./skills/vue-typescript/SKILL.md"
   ],
   "hooks": {
     "file": "hooks/hooks.json"
