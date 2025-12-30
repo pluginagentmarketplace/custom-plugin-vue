@@ -8,8 +8,8 @@
     {
       "name": "vue-assistant",
       "source": "./",
-      "description": "Claude Code plugin for vue development",
-      "version": "1.0.0"
+      "description": "Production-grade Claude Code plugin for Vue.js development with SASMP v1.3.0 compliance",
+      "version": "2.0.0"
     }
   ]
 }
