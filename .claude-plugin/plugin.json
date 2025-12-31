@@ -31,22 +31,22 @@
   "commands": [
     {
       "id": "explore-roadmap",
-      "file": "commands/explore-roadmap.md",
+      "file": "./commands/explore-roadmap.md",
       "description": "Explore all 69 development roadmaps interactively"
     },
     {
       "id": "learning-path",
-      "file": "commands/learning-path.md",
+      "file": "./commands/learning-path.md",
       "description": "Get personalized learning path recommendations"
     },
     {
       "id": "skill-assessment",
-      "file": "commands/skill-assessment.md",
+      "file": "./commands/skill-assessment.md",
       "description": "Assess your current skills and identify gaps"
     },
     {
       "id": "career-guidance",
-      "file": "commands/career-guidance.md",
+      "file": "./commands/career-guidance.md",
       "description": "Receive career development and roadmap guidance"
     }
   ],
@@ -60,7 +60,7 @@
     "./skills/vue-typescript/SKILL.md"
   ],
   "hooks": {
-    "file": "hooks/hooks.json"
+    "file": "./hooks/hooks.json"
   },
   "metadata": {
     "totalAgents": 7,
