@@ -66,7 +66,7 @@
 
 ```bash
 # Step 1️⃣ Add the marketplace
-/plugin add marketplace pluginagentmarketplace/custom-plugin-vue
+/plugin marketplace add pluginagentmarketplace/custom-plugin-vue
 
 # Step 2️⃣ Install the plugin
 /plugin install vue-development-assistant@pluginagentmarketplace-vue

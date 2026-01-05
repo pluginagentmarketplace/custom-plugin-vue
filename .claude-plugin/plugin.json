@@ -59,16 +59,16 @@
     "./skills/vue-testing/SKILL.md",
     "./skills/vue-typescript/SKILL.md"
   ],
-  "hooks": {
-    "file": "./hooks/hooks.json"
-  },
   "metadata": {
     "totalAgents": 7,
     "totalSkills": 7,
     "totalCommands": 4,
     "learningModules": 35,
     "estimatedHours": 50,
-    "supportedLanguages": ["en", "tr"],
+    "supportedLanguages": [
+      "en",
+      "tr"
+    ],
     "last_updated": "2025-01",
     "quality_standards": {
       "retry_logic": true,
