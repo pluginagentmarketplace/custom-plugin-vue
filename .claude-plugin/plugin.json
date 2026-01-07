@@ -2,7 +2,6 @@
   "schemaVersion": "1.0",
   "name": "vue-development-assistant",
   "version": "2.0.0",
-  "sasmp_version": "1.3.0",
   "eqhm_enabled": true,
   "description": "Production-grade Vue.js development plugin with specialized agents for Vue 3.5, Composition API, Pinia, Vue Router, Nuxt 3, Testing, and TypeScript",
   "author": "Plugin Agent Marketplace",
